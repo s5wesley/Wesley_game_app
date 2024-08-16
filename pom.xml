@@ -7,9 +7,8 @@
   <version>1.0-SNAPSHOT</version>
   <name>JackPiro Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
-  <distributionmanagement> 
-  </distributionmanagement> 
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -17,7 +16,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
   <build>
     <finalName>JackPiro</finalName>
   </build>
+
+  <distributionManagement> 
+    <!-- Distribution management configurations go here -->
+  </distributionManagement>
 </project>
